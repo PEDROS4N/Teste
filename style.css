@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: gray;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+h1{
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: black;
+    height: 8vh;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+ul li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+.texto{
+    font-size: 70px;
+    text-transform: uppercase;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url(waifu.png);
+    background-color: blue;
+    border: 3px solid black;
+    padding: 10px;
+    margin: 30px;
+    top: 10cm;
+    height: 300px;
+}
+.texto p{
+    margin: 80px;
+    text-align: center;
+}
+.bloco{
+    display: flex;
+    justify-content: space-between;
+}
+.block1{
+    font-size: 70px;
+    text-transform: uppercase;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url(real.jpg);
+    background-position: 1px;
+    background-color: blue;
+    border: 3px solid black;
+    padding: 10px;
+    margin: 30px;
+    width: 500px;
+    height: 420px;
+}
+.block1 p{
+    margin: 80px;
+    text-align: center;
+}
+.block2{
+    font-size: 70px;
+    text-transform: uppercase;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url(real.jpg);
+    background-position: 1px;
+    background-color: blue;
+    border: 3px solid black;
+    padding: 10px;
+    margin: 30px;
+    width: 500px;
+    height: 420px;
+}
+.block2 p{
+    margin: 80px;
+    text-align: center;
+}
+.foto img{
+    width: 300px;
+}
+.gifs{
+    display: flex;
+    justify-content: space-between;
+}
+.info{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px;
+    margin: 30px;
+    width: 500px;
+    height: 420px;
+}
+.info h1{
+    margin: 15px;
+    text-align: center;
+}
+.info p{
+    margin-left: 20px;
+}
+.gami img{
+    border: 3px solid black;
+}
+.info h1{
+    font-size: 30px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: black;
+    height: 8vh;
+}
+footer h2{
+    color: white;
+    letter-spacing: 5px;
+}
